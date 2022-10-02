@@ -22,7 +22,7 @@ void setup() {
 }
 
 void loop() {
-  // Reading between the state sof the button to determine LED State:
+  // Reading between the state of the button to determine LED State:
   buttonNew=digitalRead(buttonPin);
   buttonNew2=digitalRead(buttonPin2);
   if(buttonOld == 0 && buttonNew == 1) {
